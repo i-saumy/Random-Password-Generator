@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.container {
+    display: block;
+    margin: 100px auto 50px auto;
+    background: #ECFDF5;
+    color: black;
+    width: 475px;
+    padding: 100px 100px;
+    border: 0 solid black;
+    border-radius: 10px;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+h1#second-line {
+    color: #10B981;
+}
+
+p {
+    margin: 10px 0 50px 10px;
+    font-size: 20px;
+}
+
+button {
+    border: 0px solid black;
+    border-radius: 5px;
+    background: #10B981;
+    color: #ECFDF5;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background: black;
+    color: #5DEF92;
+    transition: 300ms;
+}
+
+#line {
+    background: #D5D4D8;
+    border: 0;
+    padding: 1px 0;
+    width: 450px;
+    margin: 40px auto 0 auto;
+}
+
+#password-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px auto;
+}
+
+#password-box-one {
+    background: #273549;
+    color: #5DEF92;
+    border: 0px solid #273549;
+    border-radius: 5px;
+    padding: 10px 35px;
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#password-box-two {
+    background: #273549;
+    color: #5DEF92;
+    border: 0px solid #273549;
+    border-radius: 5px;
+    padding: 10px 35px;
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+}
+.copy{
+    margin-top: -20px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
